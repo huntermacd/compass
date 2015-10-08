@@ -1,0 +1,25 @@
+#compass, #face {
+    height: 300px;
+    width: 300px;
+    background-color: lightsteelblue;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#face {
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+}
+
+#move {
+    margin: 0 auto;
+    font-family: 'Press Start 2P', cursive;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+#debug {
+    display: none;
+}
